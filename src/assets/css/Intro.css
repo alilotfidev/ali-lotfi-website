@@ -1,0 +1,44 @@
+.intro {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro .intro-texts h2 {
+  font-size: 82px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
+.intro .intro-texts h2 span {
+  color: var(--primary-light-color);
+  font-weight: 700;
+}
+
+.intro .intro-texts .details {
+  margin-top: 16px;
+  font-weight: 500;
+}
+
+.intro .btn-primary {
+  margin-top: 48px;
+}
+
+.intro .down-arrow {
+  position: absolute;
+  bottom: 2vh;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Intro.css.map */

@@ -1,0 +1,52 @@
+nav {
+  width: 100vw;
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--background-color);
+  opacity: 0.9;
+  -webkit-box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  position: fixed;
+  top: 0;
+}
+
+nav ul {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  opacity: 1;
+  cursor: pointer;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+  color: var(--primary-color);
+}
+
+nav .logo {
+  opacity: 1;
+}
+/*# sourceMappingURL=Navbar.css.map */

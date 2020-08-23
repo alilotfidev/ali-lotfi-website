@@ -1,0 +1,34 @@
+.intro {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .intro-texts {
+    h2 {
+      font-size: 82px;
+      font-weight: 200;
+      letter-spacing: 1.5px;
+      span {
+        color: var(--primary-light-color);
+        font-weight: 700;
+      }
+    }
+    .details {
+      margin-top: 16px;
+      font-weight: 500;
+    }
+  }
+  .btn-primary{
+      margin-top: 48px;
+  }
+  .down-arrow{
+      position: absolute;
+      bottom: 2vh;
+      left: 50%;
+      transform: translatex(-50%);
+      width: 28px;
+      height: 28px;
+      cursor: pointer;
+  }
+}
