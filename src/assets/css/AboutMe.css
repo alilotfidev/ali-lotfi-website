@@ -1,0 +1,96 @@
+.AboutMe {
+  margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.AboutMe .about-me-title {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.AboutMe h4 {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.AboutMe h4 span {
+  font-weight: 700;
+}
+
+.AboutMe .about-me-details {
+  width: 60vw;
+  margin: 28px auto;
+  font-size: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+}
+
+.AboutMe .about-me-details p {
+  margin: 12px 0px;
+  line-height: 2em;
+  font-weight: 400;
+}
+
+.AboutMe .about-me-details a {
+  color: var(--highlight-text-color);
+  font-weight: 600;
+  margin: 0px 4px;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.AboutMe .about-me-details a:hover {
+  color: var(--primary-color);
+}
+
+.AboutMe span {
+  position: relative;
+  color: white;
+  padding: 2px;
+  font-weight: 600;
+  background-color: var(--primary-color);
+}
+
+.AboutMe .stack {
+  font-size: 28px;
+}
+
+.AboutMe .technologies {
+  margin-top: 24px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  letter-spacing: 1.5px;
+  font-size: 16px;
+}
+
+.AboutMe .resume {
+  font-size: 12px;
+  margin-top: 24px;
+  font-weight: 700;
+}
+
+.AboutMe .resume a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=AboutMe.css.map */
