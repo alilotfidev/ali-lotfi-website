@@ -12,6 +12,9 @@
   box-sizing: border-box;
   font-family: 'Raleway' , sans-serif ,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "!default";
 }
+a{
+  text-decoration: none;
+}
 
 body {
   margin: 0;
