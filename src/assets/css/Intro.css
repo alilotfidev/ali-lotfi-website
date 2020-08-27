@@ -4,8 +4,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -40,5 +41,16 @@
   width: 28px;
   height: 28px;
   cursor: pointer;
+}
+
+#intro-logo {
+  font-size: 380px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: relative;
+  top: -8vh;
+  right: -8vw;
+  color: var(--primary-color);
+  opacity: 0.8;
 }
 /*# sourceMappingURL=Intro.css.map */

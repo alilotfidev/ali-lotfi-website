@@ -1,5 +1,5 @@
 nav {
-  width: 100vw;
+  width: 100%;
   min-height: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10,7 +10,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   background-color: var(--background-color);
-  opacity: 0.9;
+  opacity: 0.95;
   -webkit-box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
   z-index: 10;
@@ -48,5 +48,36 @@ nav ul li:hover {
 
 nav .logo {
   opacity: 1;
+  font-weight: bold;
+}
+
+nav .logo::first-letter {
+  color: var(--primary-color);
+}
+
+nav .logo span {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 980px) {
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  nav ul {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  nav ul li {
+    margin: 0px 6px;
+  }
 }
 /*# sourceMappingURL=Navbar.css.map */

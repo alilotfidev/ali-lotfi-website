@@ -10,7 +10,7 @@ const Intro = ({ scrollTo }) => {
                 <p className="details">A <strong>Hard-working</strong> Front-End Developer</p>
                 <button className="btn-primary" onClick={() => {scrollTo('AboutMe')}}>About Me</button>
             </div>
-            <div className="logo">logo</div>
+            <div id="intro-logo" className="logo">Ali</div>
             <img className="down-arrow" src={DownArrow} alt="go down" onClick={() => {scrollTo('AboutMe')}}/>
         </div>
     )

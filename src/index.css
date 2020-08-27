@@ -1,9 +1,12 @@
+/* logo font face define */
+@import url('./assets/css/logoFontFace.css');
+
 :root{
   --primary-color: #a134af;
   --primary-light-color: #b326c5;
   --primary-lighter-color: #c41fda;
   --text-color: #424242;
-  --highlight-text-color: #212121;
+  --highlight-text-color: #333333;
   --background-color: #ffffff;
 }
 *{
@@ -46,4 +49,23 @@ button{
 }
 .btn-primary:hover{
   transform: translateY(-2px);
+}
+strong{
+  color: var(--highlight-text-color);
+}
+.logo{
+  font-family: 'kielo';
+}
+footer{
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+footer .logo{
+  font-size: 24px;
+}
+footer div{
+  margin: 1vh auto;
 }

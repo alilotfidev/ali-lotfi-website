@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   .intro-texts {
     h2 {
@@ -31,4 +31,13 @@
       height: 28px;
       cursor: pointer;
   }
+}
+#intro-logo{
+  font-size: 380px;
+  transform: rotate(-45deg);
+  position: relative;
+  top: -8vh;
+  right: -8vw;
+  color: var(--primary-color);
+  opacity: 0.8;
 }

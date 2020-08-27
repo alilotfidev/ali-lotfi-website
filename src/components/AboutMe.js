@@ -64,7 +64,7 @@ const AboutMe = () => {
             CSS Flexbox Tutorial
           </a>
           ,and reading a lot of articles and also watched countless youtube
-          videos javaScript and web development.
+          videos about javaScript and web development.
         </p>
         <p>
           Because nothing helps to learn more than doing a project. I did a lot
