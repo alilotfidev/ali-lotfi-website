@@ -13,6 +13,11 @@
   overflow: hidden;
 }
 
+.intro .intro-texts {
+  -webkit-animation: helloAnimation 0.5s ease-in-out;
+          animation: helloAnimation 0.5s ease-in-out;
+}
+
 .intro .intro-texts h2 {
   font-size: 82px;
   font-weight: 200;
@@ -53,6 +58,9 @@
   right: -8vw;
   color: var(--primary-color);
   opacity: 0.8;
+  -webkit-animation: bigLogoAnimation 0.5s ease-in-out;
+          animation: bigLogoAnimation 0.5s ease-in-out;
+  cursor: default;
 }
 
 @media screen and (max-width: 980px) {
@@ -101,6 +109,62 @@
   }
   .intro #intro-logo {
     font-size: 180px;
+  }
+}
+
+@-webkit-keyframes helloAnimation {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  25% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  75% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes helloAnimation {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  25% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  75% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@-webkit-keyframes bigLogoAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes bigLogoAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
   }
 }
 /*# sourceMappingURL=Intro.css.map */

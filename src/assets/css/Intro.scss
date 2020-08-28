@@ -6,6 +6,7 @@
   align-items: center;
   overflow: hidden;
   .intro-texts {
+    animation: helloAnimation 0.5s ease-in-out;
     h2 {
       font-size: 82px;
       font-weight: 200;
@@ -41,6 +42,8 @@
   right: -8vw;
   color: var(--primary-color);
   opacity: 0.8;
+  animation: bigLogoAnimation 0.5s ease-in-out;
+  cursor: default;
 }
 @media screen and (max-width: 980px) {
   .intro {
@@ -89,5 +92,29 @@
     #intro-logo {
       font-size: 180px;
     }
+  }
+}
+@keyframes helloAnimation{
+  0%{
+    transform: translateX(0px);
+  }
+  25%{
+    transform: translateX(10px);
+
+  }
+  75%{
+    transform: translateX(-10px);
+
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+@keyframes bigLogoAnimation{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0.8;
   }
 }
