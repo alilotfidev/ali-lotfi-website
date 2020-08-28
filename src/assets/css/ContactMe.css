@@ -36,4 +36,31 @@ i:hover {
   border-color: var(--primary-color);
   background-color: var(--primary-color);
 }
+
+@media screen and (max-width: 980px) {
+  .contact-me-title {
+    font-size: 30px;
+  }
+  .contact-me-subtitle {
+    margin: 22px auto;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .contact-me-title {
+    font-size: 26px;
+  }
+  .contact-me-subtitle {
+    margin: 18px auto;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .contact-me-title {
+    font-size: 22px;
+  }
+  .contact-me-subtitle {
+    margin: 16px auto;
+  }
+}
 /*# sourceMappingURL=ContactMe.css.map */

@@ -79,12 +79,12 @@ const AboutMe = () => {
         <p>
           I’m <strong>hard working</strong>, <strong>super curious</strong>,
           <strong>passionate</strong>, <strong>committed</strong>, and also a
-          <strong>fast learner!</strong>
+          <strong> fast learner!</strong>
         </p>
       </div>
       <h2 className="stack">
         My current <span>stack</span> of <span>languages</span> or
-        <span>technologies</span> is:
+        <span> technologies</span> is:
       </h2>
       <strong className="technologies">
         HTML-CSS-SASS-JAVASCRIPT-REACTJS-REDUX-Firebase-Babel-Git

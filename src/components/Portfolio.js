@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/css/Portfolio.css";
 
 //import images
+import myWebsite from "../assets/images/portfolio/my-website.png"
 import WeatherApp from "../assets/images/portfolio/weather-app.png";
 import TodoApp from "../assets/images/portfolio/todo-app.png";
 import ThemeSwitcher from "../assets/images/portfolio/theme-switcher.png";
@@ -17,6 +18,23 @@ const Portfolio = () => {
       <h2 className="portfolio-title">Portfolio</h2>
       <h5 className="portfolio-subtitle">My Last Works</h5>
       <div className="portfolio-items">
+      <div className="portfolio-item">
+          <a
+            href="https://alilotfi.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={myWebsite} alt="my personal website" />
+          </a>
+          <a
+            href="https://alilotfi.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h6>My personal website</h6>
+          </a>
+          <p>ReactJS, Scss</p>
+        </div>
         <div className="portfolio-item">
           <a
             href="https://youthful-hypatia-aba0f5.netlify.app/"

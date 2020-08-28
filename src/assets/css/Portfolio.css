@@ -62,4 +62,28 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+@media screen and (max-width: 920px) {
+  .Portfolio .portfolio-title {
+    font-size: 28px;
+  }
+  .Portfolio .portfolio-subtitle {
+    font-size: 14px;
+  }
+  .Portfolio .portfolio-items {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .Portfolio .portfolio-items {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  h6,
+  p {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=Portfolio.css.map */

@@ -93,4 +93,87 @@
   color: white;
   text-decoration: none;
 }
+
+@media screen and (max-width: 980px) {
+  .AboutMe .about-me-title {
+    font-size: 28px;
+  }
+  .AboutMe h4 {
+    font-size: 20px;
+  }
+  .AboutMe .about-me-details {
+    font-size: 16px;
+  }
+  .AboutMe .resume {
+    font-size: 8px;
+  }
+  #root > div > main > section:nth-child(2) > div > h2.stack {
+    font-size: 22px;
+  }
+  #root > div > main > section:nth-child(2) > div > strong {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .AboutMe .about-me-title {
+    font-size: 26px;
+  }
+  .AboutMe h4 {
+    font-size: 16px;
+  }
+  .AboutMe .about-me-details {
+    font-size: 14px;
+  }
+  .AboutMe .resume {
+    font-size: 6px;
+  }
+  #root > div > main > section:nth-child(2) > div > h2.stack {
+    font-size: 20px;
+    text-align: center;
+  }
+  #root > div > main > section:nth-child(2) > div > strong {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .AboutMe .about-me-title {
+    font-size: 26px;
+  }
+  .AboutMe h4 {
+    font-size: 16px;
+  }
+  .AboutMe .about-me-details {
+    font-size: 14px;
+  }
+  .AboutMe .resume {
+    font-size: 4px;
+  }
+  #root > div > main > section:nth-child(2) > div > h2.stack {
+    font-size: 16px;
+  }
+  #root > div > main > section:nth-child(2) > div > strong {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .AboutMe .about-me-title {
+    font-size: 22px;
+  }
+  .AboutMe h4 {
+    font-size: 12px;
+  }
+  .AboutMe .about-me-details {
+    font-size: 10px;
+  }
+  #root > div > main > section:nth-child(2) > div > h2.stack {
+    font-size: 12px;
+  }
+  #root > div > main > section:nth-child(2) > div > strong {
+    font-size: 6px;
+  }
+}
 /*# sourceMappingURL=AboutMe.css.map */

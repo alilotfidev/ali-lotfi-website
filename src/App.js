@@ -24,6 +24,10 @@ class App extends Component {
         scrollToComponent(this.ContactMe, { offset: -80, align: "top" });
         break;
       }
+      case "Intro": {
+        scrollToComponent(this.Intro, { offset: -80, align: "top" });
+        break;
+      }
       default: {
         break;
       }
@@ -32,9 +36,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar scrollTo={this.scrollTo} />
+          <Navbar scrollTo={this.scrollTo} />
         <main>
-          <section>
+          <section ref={section => {this.Intro = section}}>
             <Intro scrollTo={this.scrollTo} />
           </section>
           <section
