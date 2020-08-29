@@ -9,7 +9,7 @@ const ContactMe = () => {
         if you want to <strong>talk</strong>, you can <strong>find me </strong>
         at:
       </p>
-      <strong className="email">lotfi26.ali@gmail.com</strong>
+      <strong className="email">hi@alilotfi.dev</strong>
       <div className="social">
         <a
           href="https://github.com/alilotfidev"

@@ -89,7 +89,9 @@ const AboutMe = () => {
       <strong className="technologies">
         HTML-CSS-SASS-JAVASCRIPT-REACTJS-REDUX-Firebase-Babel-Git
       </strong>
-      <button className="btn-primary resume"><a href="#">my resume</a></button>
+      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+        <button className="btn-primary resume">my resume</button>
+      </a>
     </div>
   );
 };
