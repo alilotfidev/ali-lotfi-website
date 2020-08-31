@@ -27,7 +27,7 @@ const AboutMe = () => {
         </p>
         <p>
           After learning HTML, CSS, and JavaScript, I learned the
-          <span>React library</span>
+          <span> React library </span>
           and I am currently working as a front end developer. I love my job.
         </p>
         <p>
@@ -69,7 +69,7 @@ const AboutMe = () => {
         <p>
           Because nothing helps to learn more than doing a project. I did a lot
           of small personal projects, some of which you can see in the
-          <span>portfolio</span>
+          <span> portfolio </span>
           section.
         </p>
         <p>
