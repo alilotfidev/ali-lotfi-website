@@ -38,6 +38,13 @@ const ContactMe = () => {
         >
           <i className="fa fa-instagram"></i>
         </a>
+        <a
+          href="https://codepen.io/alilotfidev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa fa-codepen"></i>
+        </a>
       </div>
     </div>
   );
