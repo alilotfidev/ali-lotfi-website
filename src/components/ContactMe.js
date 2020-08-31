@@ -6,8 +6,7 @@ const ContactMe = () => {
     <div className="ContactMe">
       <h2 className="contact-me-title">Contact Me</h2>
       <p className="contact-me-subtitle">
-        if you want to <strong>talk</strong>, you can <strong>find me </strong>
-        at:
+        Say <strong>hi </strong>
       </p>
       <strong className="email">hi@alilotfi.dev</strong>
       <div className="social">

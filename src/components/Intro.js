@@ -6,8 +6,8 @@ const Intro = ({ scrollTo }) => {
     return(
         <div className="intro">
             <div className="intro-texts">
-                <h2>Hello <span role="img" aria-label="victory hand emoji">✌️</span>,<br/>I'm <span>Ali</span></h2>
-                <p className="details">A <strong>Hard-working</strong> Front-End Developer</p>
+                <h2>I'm <span>Ali</span></h2>
+                <p className="details">A <strong>Hard-working</strong> Front-End Developer based in Iran.</p>
                 <button className="btn-primary" onClick={() => {scrollTo('AboutMe')}}>About Me</button>
             </div>
             <div id="intro-logo" className="logo">Ali</div>
