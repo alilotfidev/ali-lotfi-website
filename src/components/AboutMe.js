@@ -21,7 +21,7 @@ const AboutMe = () => {
           At that time, I started learning Java and after about a year, I
           developed my <span>first Android application</span>. I worked with
           Java for a while, but then I became familiar with
-          <span>JavaScript</span> and chose it to continue
+          <span> JavaScript</span> and chose it to continue
           <span>my Way</span> as a <span>front-end developer</span>, and I found
           that I was <span>more interested</span> in this language.
         </p>
