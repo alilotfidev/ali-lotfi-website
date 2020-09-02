@@ -34,16 +34,15 @@
     cursor: pointer;
   }
 }
-#intro-logo {
-  font-size: 380px;
-  transform: rotate(-45deg);
-  position: relative;
-  top: -8vh;
-  right: -8vw;
-  color: var(--primary-color);
-  opacity: 0.8;
-  animation: bigLogoAnimation 0.5s ease-in-out;
-  cursor: default;
+.big-logo-image {
+    width: 600px;
+    height: 750px;
+    position: relative;
+    top: -6vh;
+    left: 20%;
+    transform: rotate(-20deg);
+    opacity: 0.8;
+    animation: bigLogoAnimation 0.5s linear;
 }
 @media screen and (max-width: 980px) {
   .intro {
@@ -55,18 +54,19 @@
       transform: translate(-50%, -50%);
       z-index: 3;
       background-color: white;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
       padding: 16px;
       border-radius: 8px;
       opacity: 0.9;
     }
-    #intro-logo {
-      font-size: 320px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%) rotate(-45deg);
-    }
+  }
+  .big-logo-image{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(-10deg) translate(-50%, -50%);
   }
 }
 @media screen and (max-width: 630px) {
@@ -77,44 +77,44 @@
         font-size: 48px;
       }
     }
-    #intro-logo {
-      font-size: 180px;
-    }
+  }
+  .big-logo-image{
+    width: 266px;
+    height: 333px;
   }
 }
-@media screen and (max-width: 360px){
-  .intro{
-    .intro-texts{
-      h2{
+@media screen and (max-width: 360px) {
+  .intro {
+    .intro-texts {
+      h2 {
         font-size: 38px;
       }
     }
-    #intro-logo {
-      font-size: 180px;
-    }
+  }
+  .big-logo-image{
+    width: 177px;
+    height: 222px;
   }
 }
-@keyframes helloAnimation{
-  0%{
+@keyframes helloAnimation {
+  0% {
     transform: translateX(0px);
   }
-  25%{
+  25% {
     transform: translateX(10px);
-
   }
-  75%{
+  75% {
     transform: translateX(-10px);
-
   }
-  100%{
+  100% {
     transform: translateX(0px);
   }
 }
-@keyframes bigLogoAnimation{
-  0%{
+@keyframes bigLogoAnimation {
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 0.8;
   }
 }

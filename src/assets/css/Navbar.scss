@@ -34,12 +34,23 @@ nav {
     font-weight: bold;
     cursor: pointer;
     animation: logoAnimation 0.5s ease-in-out;
-    &::first-letter {
-      color: var(--primary-color);
-    }
-    span {
-      font-weight: normal;
-      font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      font-family: 'kielo' , sans-serif;
+      &::first-letter {
+        color: var(--primary-color);
+      }
+      span {
+        font-weight: normal;
+        font-size: 12px;
+      }
+    } 
+    img {
+      width: 32px;
+      height: 42px;
+      margin: 0px 8px;
     }
   }
 }
@@ -49,38 +60,36 @@ nav {
     align-items: center;
     text-align: center;
     ul {
-        width: fit-content;
+      width: fit-content;
       li {
         margin: 0px 6px;
       }
     }
   }
 }
-@keyframes navLinkAnimation{
-  0%{
+@keyframes navLinkAnimation {
+  0% {
     opacity: 0;
     transform: translateY(10px);
   }
-  25%{
+  25% {
     opacity: 1;
   }
-  100%{
+  100% {
     transform: translateY(0);
   }
 }
-@keyframes logoAnimation{
-  0%{
+@keyframes logoAnimation {
+  0% {
     transform: translateX(0px);
   }
-  25%{
+  25% {
     transform: translateX(10px);
-
   }
-  75%{
+  75% {
     transform: translateX(-10px);
-
   }
-  100%{
+  100% {
     transform: translateX(0px);
   }
 }

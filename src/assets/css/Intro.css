@@ -49,18 +49,17 @@
   cursor: pointer;
 }
 
-#intro-logo {
-  font-size: 380px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+.big-logo-image {
+  width: 600px;
+  height: 750px;
   position: relative;
-  top: -8vh;
-  right: -8vw;
-  color: var(--primary-color);
+  top: -6vh;
+  left: 20%;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
   opacity: 0.8;
-  -webkit-animation: bigLogoAnimation 0.5s ease-in-out;
-          animation: bigLogoAnimation 0.5s ease-in-out;
-  cursor: default;
+  -webkit-animation: bigLogoAnimation 0.5s linear;
+          animation: bigLogoAnimation 0.5s linear;
 }
 
 @media screen and (max-width: 980px) {
@@ -81,13 +80,14 @@
     border-radius: 8px;
     opacity: 0.9;
   }
-  .intro #intro-logo {
-    font-size: 320px;
+  .big-logo-image {
+    width: 400px;
+    height: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
-            transform: translate(-50%, -50%) rotate(-45deg);
+    -webkit-transform: rotate(-10deg) translate(-50%, -50%);
+            transform: rotate(-10deg) translate(-50%, -50%);
   }
 }
 
@@ -98,8 +98,9 @@
   .intro .intro-texts h2 {
     font-size: 48px;
   }
-  .intro #intro-logo {
-    font-size: 180px;
+  .big-logo-image {
+    width: 266px;
+    height: 333px;
   }
 }
 
@@ -107,8 +108,9 @@
   .intro .intro-texts h2 {
     font-size: 38px;
   }
-  .intro #intro-logo {
-    font-size: 180px;
+  .big-logo-image {
+    width: 177px;
+    height: 222px;
   }
 }
 

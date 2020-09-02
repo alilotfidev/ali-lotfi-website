@@ -54,15 +54,34 @@ nav .logo {
   cursor: pointer;
   -webkit-animation: logoAnimation 0.5s ease-in-out;
           animation: logoAnimation 0.5s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-nav .logo::first-letter {
+nav .logo div {
+  font-family: 'kielo' , sans-serif;
+}
+
+nav .logo div::first-letter {
   color: var(--primary-color);
 }
 
-nav .logo span {
+nav .logo div span {
   font-weight: normal;
   font-size: 12px;
+}
+
+nav .logo img {
+  width: 32px;
+  height: 42px;
+  margin: 0px 8px;
 }
 
 @media screen and (max-width: 980px) {
