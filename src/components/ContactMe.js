@@ -8,7 +8,7 @@ const ContactMe = () => {
       <p className="contact-me-subtitle">
         Say <strong>hi </strong>
       </p>
-      <strong className="email">lotfi26.ali@gmail.com</strong>
+      <strong className="email"><a href="mailto:lotfi26.ali@gmail.com">lotfi26.ali@gmail.com</a></strong>
       <div className="social">
         <a
           href="https://github.com/alilotfidev"
