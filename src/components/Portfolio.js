@@ -20,14 +20,14 @@ const Portfolio = () => {
       <div className="portfolio-items">
       <div className="portfolio-item">
           <a
-            href="https://alilotfi.dev"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={myWebsite} alt="my personal website" />
           </a>
           <a
-            href="https://alilotfi.dev"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
           >

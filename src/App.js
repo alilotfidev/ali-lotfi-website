@@ -38,16 +38,17 @@ class App extends Component {
       <div className="App">
           <Navbar scrollTo={this.scrollTo} />
         <main>
-          <section ref={section => {this.Intro = section}}>
+          <section 
+          >
             <Intro scrollTo={this.scrollTo} />
           </section>
-          <section
+          {/* <section
             ref={(section) => {
               this.AboutMe = section;
             }}
           >
             <AboutMe />
-          </section>
+          </section> */}
           <section
             ref={(section) => {
               this.Portfolio = section;
