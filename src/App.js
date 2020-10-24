@@ -2,7 +2,7 @@ import React, { Component } from "react";
 //components
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
-import AboutMe from "./components/AboutMe";
+// import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import ContactMe from "./components/ContactMe";
 
