@@ -16,10 +16,10 @@ const Intro = ({ scrollTo }) => {
         <button
           className="btn-primary"
           onClick={() => {
-            scrollTo("AboutMe");
+            scrollTo("Portfolio");
           }}
         >
-          About Me
+          Portfolio
         </button>
       </div>
       <img className="big-logo-image" src={Logo} alt="Ali Lotfi" />
@@ -28,7 +28,7 @@ const Intro = ({ scrollTo }) => {
         src={DownArrow}
         alt="go down"
         onClick={() => {
-          scrollTo("AboutMe");
+          scrollTo("Portfolio");
         }}
       />
     </div>
